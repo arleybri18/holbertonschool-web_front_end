@@ -194,6 +194,27 @@ a:active {
     display: none;
 }
 
+.card-category {
+    color: var(--color-primary);
+}
+
+
+.card-services .card-title {
+    margin: 0;
+}
+
+.card-services a {
+    display: block;
+    padding: 2rem;
+    background-color: var(--color-light-grey);
+}
+
+.card-services a:hover {
+    color: var(--color-white);
+    background: var(--color-primary);
+    text-decoration: none;
+}
+
 .card-work .card-outer {
     position: relative;
     overflow: hidden;
@@ -235,27 +256,6 @@ a:active {
 
 .card-work:hover .card-title {
     opacity: 1;
-}
-
-.card-category {
-    color: var(--color-primary);
-}
-
-
-.card-services .card-title {
-    margin: 0;
-}
-
-.card-services a {
-    display: block;
-    padding: 2rem;
-    background-color: var(--color-light-grey);
-}
-
-.card-services a:hover {
-    color: var(--color-white);
-    background: var(--color-primary);
-    text-decoration: none;
 }
 
 .card-testimonial {
