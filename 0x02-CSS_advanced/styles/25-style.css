@@ -100,12 +100,12 @@ Create a custom property button-color pointing to the variable color-white
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
     --button-border: 0.2rem solid var(--color-primary);
-    --button-color: color-black;
+    --button-color: var(--color-black);
     --button-text-decoration: none;
-    --button-font-size: font-size-large;
-    --button-hover-color: color-white;
+    --button-font-size: var(--font-size-large);
+    --button-hover-color: var(--color-white);
     --button-hover-text-decoration: none;
-    --button-hover-background: color-primary;
+    --button-hover-background: var(--color-primary);
 }
 
 /*
@@ -303,7 +303,7 @@ ul.row {
     clear: both;
   }
 
-  [data-section-theme="dark"] {
+[data-section-theme="dark"] {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background-color: var(--color-black);
