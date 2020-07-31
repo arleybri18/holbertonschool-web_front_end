@@ -1,0 +1,16 @@
+/* Colors */
+$text_color: #3D3D3D;
+$bkg_color: #6D6D6D;
+
+body {
+    color: $text_color;
+    background-color: $bkg_color; 
+}
+  
+p {
+    color: $text_color; 
+}
+  
+h2 {
+    background-color: $bkg_color; 
+}
