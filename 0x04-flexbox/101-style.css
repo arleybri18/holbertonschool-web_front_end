@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+}
+
+.box {
+  flex-basis: 100%;
+}
+
+.box.box1 {
+  background: teal;
+  flex-grow: 1;
+}
+
+.box.box2 {
+  background: yellow;
+  flex-grow: 1;
+}
+.box.box3 {
+  background: skyblue;
+  flex-grow: 1;
+}
+.box.box4 {
+  background: steelblue;
+  flex-grow: 1;
+}
+.box.box5 {
+  background: springgreen;
+  flex-grow: 1;
+}
