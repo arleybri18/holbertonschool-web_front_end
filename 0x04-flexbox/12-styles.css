@@ -561,6 +561,10 @@
 /* Post
     ============================= */
 
+.post {
+  display: flex;
+} 
+
 .post-content {
   width: 100%;
 }
